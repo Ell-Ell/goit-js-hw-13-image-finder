@@ -71,7 +71,7 @@ function clearContainer() {
   refs.galleryContainer.innerHTML = '';
   loadMoreBtn.hide();
 }
-
+// add click
 function onGallaryImageClick(e) {
   const largeImageInModal = basicLightbox.create(
     ` <img src="${e.target.dataset.source}" alt="${e.target.alt}">`,
